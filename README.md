@@ -7,10 +7,10 @@
 <!-- ![Preview](/demo/demo1.jpeg) -->
 
 ## How to run project?
-- Change file `config.js`
+- Rename file `config.js.example` to `config.js` and fill API key instead
 - Get API_KEY_RM_BG RemoveBg [Here](https://www.remove.bg/api#api-reference)
 - Get API_KEY_OPEN_AI OpenAI [Here](https://beta.openai.com/account/api-keys)
-- RUN `npm install`
+- RUN `npm i`
 - RUN `npm run start` for production 
 or RUN `npm run dev` for development
 
