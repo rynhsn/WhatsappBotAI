@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { API_KEY_OPEN_AI } = require('../config');
+const { keyOpenAi } = require('../config');
 
 const ChatAIHandler = async (text, msg) => {
 
@@ -41,7 +41,7 @@ const ChatGPTRequest = async (text) => {
             "accept": "application/json",
             "Content-Type": "application/json",
             "Accept-Language": "in-ID",
-            "Authorization": `Bearer ${API_KEY_OPEN_AI}`,
+            "Authorization": `Bearer ${keyOpenAi}`,
         },
     })
         .then((response) => {

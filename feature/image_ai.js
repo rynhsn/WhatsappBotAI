@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { API_KEY_OPEN_AI } = require('../config');
+const { keyOpenAi } = require('../config');
 const { MessageMedia } = require('whatsapp-web.js');
 
 const ImageAIHandler = async (text, msg) => {
@@ -43,7 +43,7 @@ const ImageRequest = async (text) => {
             "accept": "application/json",
             "Content-Type": "application/json",
             "Accept-Language": "in-ID",
-            "Authorization": `Bearer ${API_KEY_OPEN_AI}`,
+            "Authorization": `Bearer ${keyOpenAi}`,
         },
     })
         .then((response) => {
