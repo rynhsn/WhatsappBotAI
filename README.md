@@ -17,7 +17,7 @@ or RUN `npm run dev` for development
 ## Available Command
 | Command             | Example                     |
 | ------------------- | --------------------------- |
-| `/ubah color`       | `/ubah blue`                |
+| `/edit color`       | `/edit blue`                |
 | `/us question`      | `/us how to be a superman?` |
 | `/buat description` | `/buat teddy bear`          |
 
