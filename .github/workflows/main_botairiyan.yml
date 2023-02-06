@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'botairiyan'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_35C3A2B5A06B460884E98E6596763DAA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_52212916F21F42DABE73B817FCAC57A2 }}
           package: .
