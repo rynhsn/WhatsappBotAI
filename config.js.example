@@ -1,0 +1,4 @@
+module.exports = {
+    API_KEY_RM_BG: "YOUR REMOVE BG API KEY",
+    API_KEY_OPEN_AI: "YOUR OPEN AI API KEY"
+}
