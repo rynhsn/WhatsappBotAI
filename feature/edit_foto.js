@@ -21,7 +21,7 @@ const EditPhotoHandler = async (text, msg) => {
             const newPhoto = await EditPhotoRequest(media.data, color)
 
             if (!newPhoto.success) {
-                return msg.reply('Terjadi kesalahan.');
+                return msg.reply('Terjadi kesalahan, Adds a solid color background. Can be a hex color code (e.g. 81d4fa, fff) or a color name (e.g. green). For semi-transparency, 4-/8-digit hex codes are also supported (e.g. 81d4fa77).');
             }
 
             const chat = await msg.getChat();
